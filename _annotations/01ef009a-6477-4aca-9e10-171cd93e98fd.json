@@ -1,0 +1,31 @@
+---
+canvas: "https://studio.archipelago.nyc/cantaloupe/iiif/2/29f%2Fimage-5e56258b27e83680a08c758687482b92-download-dd16d56b-0ba8-446d-8275-973964734c8a.jp2/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hola",
+            "purpose": "commenting",
+            "creator": {
+                "id": "DiegoPino",
+                "name": "Diego Pino Navarro"
+            },
+            "created": "2022-03-07T19:41:37.664Z",
+            "modified": "2022-03-07T19:41:37.957Z"
+        }
+    ],
+    "target": {
+        "source": "https://studio.archipelago.nyc/cantaloupe/iiif/2/29f%2Fimage-5e56258b27e83680a08c758687482b92-download-dd16d56b-0ba8-446d-8275-973964734c8a.jp2/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=55.2003288269043,2373.729736328125,1457.2247200012207,616.541748046875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "01ef009a-6477-4aca-9e10-171cd93e98fd.json",
+    "motivation": "commenting"
+}
