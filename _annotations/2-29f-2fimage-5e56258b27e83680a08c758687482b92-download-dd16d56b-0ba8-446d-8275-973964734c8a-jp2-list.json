@@ -1,0 +1,9 @@
+---
+canvas_id: "https://studio.archipelago.nyc/cantaloupe/iiif/2/29f%2Fimage-5e56258b27e83680a08c758687482b92-download-dd16d56b-0ba8-446d-8275-973964734c8a.jp2/info.json"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
